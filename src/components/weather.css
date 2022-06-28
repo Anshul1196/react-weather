@@ -1,0 +1,32 @@
+*,::after,::before{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.div_body{
+    outline: black;
+    border-radius: 1rem;
+    border: 6px dotted;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.form{
+    font-size: 2em;
+    display: inline-grid;
+}
+input:not([type]), input[type="text"]{
+    margin-top: 1rem;
+}
+input:not([type]), input[type="submit"]{
+    font-size: 1rem;
+    border: 3px solid black;
+    border-radius: 9rem;
+}
+
+
